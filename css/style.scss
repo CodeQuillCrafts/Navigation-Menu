@@ -44,7 +44,7 @@ header {
 
                 a {
                     text-decoration: none;
-                    color: rgba($color: #611cbb, $alpha: 1.0);
+                    color: #00c4cb;
                     position: relative;
 
                     &::after {
@@ -54,7 +54,7 @@ header {
                         left: 0;
                         height: 3px;
                         width: 0%;
-                        background: rgba($color: #611cbb, $alpha: 0.8);
+                        background: #00c4cb;
                         transition: all .5s linear;
                     }
 
