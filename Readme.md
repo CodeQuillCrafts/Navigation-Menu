@@ -16,8 +16,9 @@
 ## How To Use 🤔
 
 1. Download or clone this repository onto your local machine.
-2. Open `index.html` file located at the `./index.html` using a web browser.
-3. You should see a basic responsive navigation menu displayed.
+1. Extract css from scss file.
+1. Open `index.html` file located at the `./index.html` using a web browser.
+1. You should see a basic responsive navigation menu displayed.
 
 ## Preview This Project.
 
