@@ -24,6 +24,10 @@ header {
         color: rgba($color: #12b373, $alpha: 1.0);
         padding: 3px;
         box-shadow: 2px 3px 5px rgba($color: rgb(0, 0, 0), $alpha: 0.2);
+
+        span {
+            color: #927937;
+        }
     }
 
     nav {
@@ -41,10 +45,11 @@ header {
             li {
                 text-transform: capitalize;
                 font-weight: bolder;
+                text-transform: uppercase;
 
                 a {
                     text-decoration: none;
-                    color: #00c4cb;
+                    color: rgba($color: #12b373, $alpha: 1.0);
                     position: relative;
 
                     &::after {
@@ -54,7 +59,7 @@ header {
                         left: 0;
                         height: 3px;
                         width: 0%;
-                        background: #00c4cb;
+                        background: rgba($color: #12b373, $alpha: 1.0);
                         transition: all .5s linear;
                     }
 

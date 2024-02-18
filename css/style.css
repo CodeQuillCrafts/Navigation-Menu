@@ -25,6 +25,9 @@ header h2 {
   padding: 3px;
   box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
 }
+header h2 span {
+  color: #927937;
+}
 header nav {
   display: flex;
   justify-content: space-around;
@@ -40,10 +43,11 @@ header nav ul {
 header nav ul li {
   text-transform: capitalize;
   font-weight: bolder;
+  text-transform: uppercase;
 }
 header nav ul li a {
   text-decoration: none;
-  color: #611cbb;
+  color: #12b373;
   position: relative;
 }
 header nav ul li a::after {
@@ -53,7 +57,7 @@ header nav ul li a::after {
   left: 0;
   height: 3px;
   width: 0%;
-  background: rgba(97, 28, 187, 0.8);
+  background: #12b373;
   transition: all 0.5s linear;
 }
 header nav ul li a:hover::after {
