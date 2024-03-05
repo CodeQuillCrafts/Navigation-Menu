@@ -23,5 +23,3 @@
 ## Preview This Project.
 
 <img src="images/Preview.png" alt="Preview.png">
-
-## <center><a href="https://navigationmenu-codequillcrafts.netlify.app" target=_blank>View Live</a></center>
